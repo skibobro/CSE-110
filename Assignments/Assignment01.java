@@ -1,4 +1,4 @@
-
+/*-----------Class Name Assignment1
 // CSE 110     : <Class #14869> / <Ali Altunkaya>
 // Assignment  : <assignment #1>
 // Author      : <Zack Spate> & <1222898651>
@@ -27,24 +27,28 @@ public class Assignment01 {
 
                 System.out.println("How many Pizzas were purchased?");
                 pizzapurch = keyboard.nextInt();
-                System.out.println("Awesome! There are" +pizzapurch);
-                System.out.println("total Pizza(s)");
+                System.out.print("Awesome! There are " +pizzapurch); 
+                System.out.println(" total Pizza(s)");
+                System.out.println();
 
-                System.out.println("How many slices are cut");
+                System.out.println("How many slices are cut per pizza?");
                 pizzaslice = keyboard.nextInt();
-                System.out.println("The slices per pizza is");
+                System.out.print("The slices per pizza is ");
                 System.out.print(pizzaslice);
                 System.out.println(". Tasty!");
+                System.out.println();
 
                 System.out.println("How many adults are here?");
                 hungryppl = keyboard.nextInt();
-                System.out.println("Radical! The number of adults is" +hungryppl);
+                System.out.println("Radical! The number of adults is " +hungryppl);
+                System.out.println();
 
                 System.out.println("How many children are here?");
                 hungrylttlppl = keyboard.nextInt();
-                System.out.println("The pizza party has");
+                System.out.print("The pizza party has ");
                 System.out.print(hungrylttlppl);
-                System.out.println("children");
+                System.out.println(" children");
+                System.out.println();
                 
 
 
@@ -55,15 +59,35 @@ public class Assignment01 {
                 int leftover = (lttlpplsliceavail % sliceperlttlppl);
 
 
-        System.out.println("There are slicetotal total slices of pizza");
-        System.out.println("The adults get pplslice slices");
-        System.out.println("There are lttlpplsliceavail slices for the children");
+        System.out.println("There are: ");
+        System.out.print (+slicetotal);
+        System.out.println(" total slices");
+        System.out.println();
+
+        System.out.println("The adults get: ");
+        System.out.print(pplslice);
+        System.out.println(" slices");
+        System.out.println();
         //adults get pizza before the children
-        System.out.println("Each child will get sliceperlttlppl slices");
+
+        System.out.println("The children get: ");
+        System.out.print(lttlpplsliceavail);
+        System.out.println(" slices to share");
+        System.out.println();
+
+        
+        System.out.println("Each child will get: ");
+        System.out.print(sliceperlttlppl);
+        System.out.println(" slices");
+        System.out.println();
         //children get the remaining slices evenly
-        System.out.println("There are");
+
+        System.out.println("There are: ");
         System.out.print(+ leftover); 
-        System.out.println("remaining slices");
+        System.out.println(" remaining slices");
+        System.out.println();
+        System.out.println("Yahoo! Pizza!");
+
 
     }
 }}
