@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Assignment01 {
     public static void main(String[] args) {  
 
-        try (Scanner keyboard = new Scanner(System.in)) {
+        (Scanner in = new Scanner(System.in)) {
             int pizzapurch;
                // # of pizza(s) purchsed
                int pizzaslice;

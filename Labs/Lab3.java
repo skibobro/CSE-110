@@ -14,18 +14,30 @@ public class Lab3 {
         Scanner scanner = new Scanner(System.in);
         // Declare three variables for HW, midterm, and final exam grades
         // -->
+        double homeworkGrademin = 0;
+        double homeworkGrademax = 100;
+        double midtermExamGrademin = 0;
+        double midtermExamGrademax = 100;
+        double finalExamGrademin = 0;
+        double finalExamGrade = 200;
         // Declare a loop control variable i
         // -->
 
-        while (/* Put in the condition involving i */) {
+        while (i); {
             // Design if-else control flow:
-            //
+            if (i == 0);
+            System.out.print("Please enter your Homework grade: ");
+            if (i == 1);
+            System.out.println("Please enter your Midterm Exam grade: ");
+            if (i == 2);
+            System.out.println("Please enter your Final Exam grade: ");
+
             // if i is 0, asks for the homework grade
             // if i is 1, asks for the midterm exam grade
             // if i is 2, asks for the final exam grade
             //
             // You have to let the user re-try if any of the inputs is invalid.
-            // - homework grade is in [0, 100]
+            
             // - midterm grade is in [0, 100]
             // - final exam grade is in [0, 200]
             //
