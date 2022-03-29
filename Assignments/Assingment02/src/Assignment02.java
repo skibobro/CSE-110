@@ -105,6 +105,7 @@ public class Assignment02 {
         System.out.println();
         System.out.print("Total: $");
         System.out.println(projectTotalCost);
+        System.out.println();
 
 
     }
