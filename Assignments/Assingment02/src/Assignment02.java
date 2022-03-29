@@ -1,3 +1,8 @@
+// AUTHOR: Zack Spate
+// FILENAME: Assignment02.java
+/* SPECIFICATION: Using numbers with specified values to calculate material costs and totals for
+a road consturction project*/
+// FOR: CSE 110- Assingment02
 import java.util.Scanner;
 
 public class Assignment02 {
